@@ -1,0 +1,146 @@
+
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background: var(--bgFooter);
+}
+
+.footer_logo img {
+  width: calc(100% - 80%);
+}
+
+.footer_logo h5 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  color: var(--ColorOne);
+}
+
+.footer_logo p {
+  font-size: 0.9rem;
+  color: #333;
+  line-height: 28px;
+}
+
+.delivery_time_item {
+  background: transparent !important;
+}
+
+.delivery_time_item span {
+  font-weight: 600;
+  font-size: 1rem;
+  color: var(--ColorOne);
+  background: transparent !important;
+}
+.delivery_time_item p {
+  color: var(--ColorOne);
+  
+}
+
+.footer_title {
+  font-size: 1.1rem;
+  color: var(--ColorOne);
+  font-weight: 600;
+}
+
+.newsletter {
+  position: relative;
+  
+}
+
+.newsletter-t {
+  position: absolute;
+  padding: 7px 10px;
+  border: 1px solid var(--ColorOne);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.newsletter-t input {
+  background: transparent !important;
+  border: none;
+  outline: none;
+}
+
+.newsletter-t span {
+  background: var(--ColorOne);
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+.newsletter-t span i {
+  color: #fff;
+  
+}
+
+.newsletter-t input:focus {
+  outline: none;
+}
+
+.newsletter-t input::placeholder {
+  color: var(--ColorOne);
+}
+
+.social_links span i {
+  padding: 5px;
+  background: var(--ColorOne);
+  color: #fff;
+  border-radius: 50%;
+}
+
+.copywrite_text {
+  font-size: 0.8rem;
+  color: var(--ColorTwo);
+}
+
+
+@media only screen and (max-width: 992px) {
+  .newsletter-t input {
+    padding: 7px;
+    font-size: 0.7rem;
+  }
+  .newsletter-t span {
+    padding: 4px 20px;
+    font-size: 0.7rem;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+  .footer_title {
+    font-size: 0.8rem;
+  }
+
+  .delivery_time_item span {
+    font-size: 0.8rem;
+  }
+
+  .delivery_time_item p {
+    font-size: 0.7rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .copyright_text {
+    text-align: center;
+  }
+
+  .social_links p {
+    font-size: 0.8rem;
+  }
+
+  .social_links span {
+    padding: 4px;
+  }
+  .social_links span a {
+    font-size: 0.7rem;
+  }
+}
+

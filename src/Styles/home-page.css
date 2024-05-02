@@ -1,0 +1,247 @@
+
+/* ===== START Hero Content =====  */
+.hero_content {
+  padding-top: 70px;
+  
+}
+
+ .hero_title {
+   font-size: 2.5rem;
+   line-height: 55px;
+ }
+ 
+ .hero_title span {
+   color: var(--ColorTwo);
+ }
+ 
+ .hero_content p {
+   font-size: 1rem;
+   line-height: 30px;
+   color: #777;
+ }
+ 
+ .hero_btns button {
+   border: none;
+   outline: none;
+   padding: 7px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .order_btn {
+   background: var(--ColorTwo);
+   color: #fff;
+   transition: 0.3s;
+ }
+ 
+ .order_btn:hover {
+   background: var(--ColorOne);
+ }
+ 
+ .all_food_btn {
+   background: transparent;
+   border: 1px solid var(--ColorTwo) !important;
+ }
+ 
+ .all_food_btn a {
+   color: var(--ColorTwo) !important;
+ }
+ 
+ .hero_service p {
+   color: var(--ColorOne);
+   font-weight: 600;
+   font-size: 0.9rem;
+ }
+ 
+ .shipping_icon i {
+   padding: 5px;
+   background: var(--ColorTwo);
+   color: #fff;
+   border-radius: 50%;
+   font-weight: 500 !important;
+ }
+  
+/* ===== END Hero Content =====  */
+
+/* ===== START Feature Section =====  */
+
+.feature_subtitle {
+  color: var(--ColorTwo);
+}
+
+.feature_title span {
+  color: var(--ColorTwo);
+  
+}
+
+.feature_text {
+  color: #777;
+}
+
+.feature_item p {
+  color: #777;
+}
+/* ===== END Feature Section =====  */
+
+/* === START Food Categiry Section ====  */
+.food_category {
+  background: var(--ColorTwo);
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px 0px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.food_category button {
+  border: none;
+  outline: none;
+  padding: 7px 20px;
+  background: transparent;
+  color: #fff;
+}
+
+.food_category button img {
+  width: 20px;
+  height: 20px;
+}
+
+.foodBtnActive {
+  background: #fff !important;
+  border-radius: 5px;
+  color: var(--ColorTwo) !important;
+}
+
+/* ===== END Food Categiry Section =====  */
+/* ===== START Why Food Section =====  */
+.testy_treat_title span {
+  color: var(--ColorTwo);
+}
+
+.testy_treat_desc {
+  color: #777;
+  line-height: 28px;
+}
+
+.choose_us_title {
+  font-weight: 600;
+  margin-bottom: 10px;
+  
+}
+.choose_us_title i {
+  font-weight: 500 !important;
+  color: var(--ColorTwo);
+}
+
+.choose_us_desc {
+  color: #777;
+}
+/* ===== END Why Food Section =====  */
+/* ===== START Testimonial Section =====  */
+
+.testimonial_subtitle {
+  color: var(--ColorTwo);
+}
+
+.testimonial_title span {
+  color: var(--ColorTwo);
+}
+
+.testimonial_desc {
+  color: #777;
+  line-height: 30px;
+}
+/* ===== END Testimonial Section =====  */
+
+
+
+@media only screen and (max-width: 768px) {
+  .hero_content h5 {
+    font-size: 1rem;
+  }
+
+  .hero_content p {
+    font-size: 0.8rem;
+    line-height: 25px;
+  }
+
+  .hero_title {
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+
+  .hero_btns button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+
+  .hero_service p {
+    font-size: 0.7rem !important;
+  }
+
+  .feature_item h5 {
+    font-size: 0.9rem;
+  }
+
+  .feature_item p {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .feature_subtitle {
+    font-size: 1rem;
+  }
+  .feature_text {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+
+  .food_category {
+    padding: 15px;
+  }
+  .food_category button {
+    padding: 5px 15px;
+    font-size: 0.7rem;
+  }
+
+  .tasty_treat_desc {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  .choose_us_title {
+    font-size: 0.8rem;
+  }
+
+  .choose_us_desc {
+    font-size: 0.7rem;
+  }
+
+  .testimonial_subtitle {
+    font-size: 1rem;
+  }
+  .testimonial_desc {
+    font-size: 0.8rem;
+  }
+}
+
+
+@media only screen and (max-width: 576px) {
+  .hero_content {
+    text-align: center;
+  }
+
+  .hero_btns {
+    justify-content: center;
+  }
+
+  .hero_service {
+    justify-content: center;
+  }
+  .why_choose-us {
+    padding-top: 0 !important;
+  }
+}
+
+
+
+
